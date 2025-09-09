@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b30000;
+}
+
+header.cabecalho-principal {
+    background-color: #dddddd;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pontuacao-game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #61B1EA;
+    padding: 10px;
+    color: white;
+    border-radius: 30px;
+    padding: 5px 50px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 15px;    
+}
+
+.pontuacao-game img {
+    margin-right: 15px;
+}
+
+.nome-jogo{
+    font-weight: bolder;
+    font-size: 27px;
+    margin-right: 20px;
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 20px;
+
+}
+
+.container-falar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+
+.cor-atual {
+    padding: 20px 0 20px 0;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 15px;
+}
+
+.btn-responder button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 60px;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+.container-mario img {
+    width: 350px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+    background-color: rgb(26, 26, 32);
+    padding: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 130px;
+}
